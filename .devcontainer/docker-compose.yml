@@ -28,7 +28,7 @@ services:
     #   - seccomp:unconfined
 
     # Uncomment the next line to use a non-root user for all processes.
-    # user: vscode
+    user: vscode
 
     # Use "forwardPorts" in **devcontainer.json** to forward an app port locally. 
     # (Adding the "ports" property to this file will not forward from a Codespace.)
@@ -40,14 +40,14 @@ services:
     # note host:container
     ports:
         - 5545:8545
-  truffle_suite:
-      container_name: truffle_suite
-      build:
-          context: ./truffle-suite
-              # volumes
-      volumes:
-          - ".:/workspace"
-      # command: >
-      #     bash
-      stdin_open: true # docker run -i
-      tty: true # docker run -t
+  # truffle_suite:
+  #     container_name: truffle_suite
+  #     build:
+  #         context: ./truffle-suite
+  #             # volumes
+  #     volumes:
+  #         - ".:/workspace"
+  #     # command: >
+  #     #     bash
+  #     stdin_open: true # docker run -i
+  #     tty: true # docker run -t
