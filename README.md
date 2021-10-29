@@ -1,8 +1,7 @@
-Commands:
 
-  Compile:              truffle compile
-  Migrate:              truffle migrate
-  Test contracts:       truffle test
-  Test dapp:            cd client && npm test
-  Run dev server:       cd client && npm run start
-  Build for production: cd client && npm run build
+# Basics
+- `cd redCoin`
+- `make contracts`
+- `make console`
+
+[interaction commands](https://www.trufflesuite.com/docs/truffle/quickstart#interacting-with-the-contract)
