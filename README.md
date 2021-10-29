@@ -1,7 +1,7 @@
 
 # Basics
 - `cd redCoin`
-- `make contracts`
+- `make contract`
 - `make deploy`
 - `make console`
 
