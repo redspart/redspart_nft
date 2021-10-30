@@ -5,4 +5,4 @@ deploy:
 	truffle migrate
 
 console:
-	turffle console
+	truffle console
